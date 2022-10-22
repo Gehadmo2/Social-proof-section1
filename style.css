@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "LeagueSpartan" ;
+    src: url(LeagueSpartan-VariableFont_wght.ttf);
+}
+body{
+    background-color: rgb(247 247 247);
+    font-family:"LeagueSpartan";
+}
+.main{
+        margin: 8px;
+        position: relative;
+        width: 1166px;
+        left: 74px;
+        top: -17px;
+}
+h2{
+font-size: 60px;
+    color: rgb(138, 4, 140);
+    width: 370px;
+    font-weight: bold;
+}
+.rates {
+background-color: #e9e9e9;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 342px;
+    margin-left: 2px;
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    justify-content: space-around;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+div.post img{
+    border-radius: 50%;
+    width: 44px;
+}
+span{
+    color: rgb(252 49 255);
+}
+.parent{
+    display: flex;
+    justify-content:space-evenly;
+    color: white;
+}
+.data{
+        top: 33px;
+            position: absolute;
+            right: 154px;
+}
+h4{
+    margin: 3px;
+    letter-spacing:1px;
+}
+div.post{
+    background-color: rgb(138, 4, 140);
+    border-radius: 10px;
+    padding: 30px;
+    height: fit-content;
+    position: relative;
+}
+p.post{
+    max-width: 283px;
+}
+p.caption{
+    max-width: 487px;
+        font-size: 20px;
+        color: #b1aeae;
+}
